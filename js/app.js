@@ -46,16 +46,6 @@ for (i=1; i<=3;i++){
     navbar.appendChild(list);
 }
 // Add class 'active' to section when near top of viewport
-function Active(){
-	for (var i = 1; i <= 3; i++) {
-		var section = document.querySelector('#section'+i);
-		var rect = section.getBoundingClientRect()
-		console.log(window.innerHeight)
-		console.log(rect);
-		
-	}
-}
-document.addEventListener('scroll',Active());
 
 // Scroll to anchor ID using scrollTO event
 document.querySelector("a").addEventListener("click", function(e){
