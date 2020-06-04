@@ -1,13 +1,4 @@
 # Landing Page Project
-
-## Table of Contents
-
-* [Instructions](#instructions)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+The main aim of this project is to give you real-world scenarios of manipulating DOM. In this project you get to know about the combine use of HTML, CSS and JavaScript. JavaScript gives you a power to do make your webpage more powerful. 
+In this page the list items for the navigation bar is added using JavaScript and when the user clicks the navgation bar than the window will scroll to that section. 
+Also when the user see a particular section than that section shows a border around that section.
