@@ -13,26 +13,6 @@
  * 
 */
 
-/**
- * Define Global Variables
- * 
-*/
-
-
-/**
- * End Global Variables
- * Start Helper Functions
- * 
-*/
-
-
-
-/**
- * End Helper Functions
- * Begin Main Functions
- * 
-*/
-
 // build the nav
 function buildNav(){
     for (i=1; i<=4;i++){
@@ -52,8 +32,8 @@ buildNav();
 
 // Scroll To the section
 document.querySelectorAll('.navbar__menu a').forEach(a => {
-    a.addEventListener('click', function (e) {
-        e.preventDefault();
+    a.addEventListener('click', function (event) {
+        event.preventDefault();
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
@@ -85,20 +65,3 @@ function active(){
 document.addEventListener('scroll',function(){
 	active();
 });
-
-// Scroll to anchor ID
-
-
-/**
- * End Main Functions
- * Begin Events
- * 
-*/
-
-// Build menu 
-
-// Scroll to section on link click
-
-// Set sections as active
-
-
